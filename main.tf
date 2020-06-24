@@ -1,9 +1,9 @@
 terraform {
   backend "remote" {
-    organization = "hashicorp-learn"
+    organization = "jdc-sandbox"
 
     workspaces {
-      name = "learn-terraform-pipelines-consul"
+      name = "consul-gke-vault-backend"
     }
   }
 }
